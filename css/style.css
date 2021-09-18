@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: gray;
     color: skyblue;
     font-size: 1.5em;
     text-align: center;
@@ -49,7 +49,7 @@ input {
 
 .topnav a {
   float: left;
-  color: skyblue;
+  color: darkblue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -58,11 +58,11 @@ input {
 
 
 .topnav a:hover {
-  background-color: darkblue;
+  background-color: white;
   color: black;
 }
 
 .topnav a.active {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
