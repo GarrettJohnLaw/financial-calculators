@@ -21,9 +21,10 @@ label {
 
 input {
     align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    top-margin: 5px;
 }
 
 #output {
-    color: aqua;
+    color: white;
 }
