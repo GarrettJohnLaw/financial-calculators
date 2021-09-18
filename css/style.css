@@ -28,3 +28,11 @@ input {
 #output {
     color: white;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
