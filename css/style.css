@@ -23,3 +23,7 @@ input {
     align: center;
     margin-bottom: 10px;
 }
+
+#output {
+    color: aqua;
+}
