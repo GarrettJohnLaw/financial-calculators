@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: black;
     color: skyblue;
     font-size: 1.5em;
     text-align: center;
@@ -49,7 +49,7 @@ input {
 
 .topnav a {
   float: left;
-  color: darkblue;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
