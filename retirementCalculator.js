@@ -1,1 +1,1 @@
-
+const retirementCalculator = new Vue({});
