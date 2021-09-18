@@ -27,7 +27,7 @@ input {
 }
 
 .submitButton {
-    color: skyblue;
+    background-color: skyblue;
 }
 
 #output {
