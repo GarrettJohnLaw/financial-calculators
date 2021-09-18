@@ -43,13 +43,13 @@ input {
 }
 
 .topnav {
-  background-color: darkblue;
+  background-color: white;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: skyblue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,6 +63,6 @@ input {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
 }
