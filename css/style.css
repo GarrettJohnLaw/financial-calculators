@@ -5,8 +5,9 @@ body {
     text-align: center;
 }
 h1 {
-    color: skyblue;
+    color: White;
     text-align: center;
+    font-size: 2.0em;
 }
 #intro {
     font-size: 1.3em;
@@ -23,6 +24,10 @@ input {
     align: center;
     margin-bottom: 15px;
     top-margin: 5px;
+}
+
+.submitButton {
+    color: skyblue;
 }
 
 #output {
