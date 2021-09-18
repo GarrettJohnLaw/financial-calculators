@@ -1,9 +1,9 @@
 const app = new Vue({
 el: '#app',
   data: {
-    startingValue: '',
-    yearsToRetirement: '',
-    monthlyContribution: '',
-    annualInterestRate: '',
-    desiredPortfolio: '',
+    startingValue: '0',
+    yearsToRetirement: '0',
+    monthlyContribution: '0',
+    annualInterestRate: '0',
+    desiredPortfolio: '0',
 });
