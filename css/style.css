@@ -43,7 +43,7 @@ input {
 }
 
 .topnav {
-  background-color: skyblue;
+  background-color: darkblue;
   overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ input {
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: darkblue;
   color: black;
 }
 
