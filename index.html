@@ -18,15 +18,15 @@
     
  
     <label for="startingValue">Current value of your retirement portfolio: </label><br>
-    <input type="text" id="startingValue" name="startingValue" v-model="startingValue"><br>
+    <input type="text" id="startingValue" name="startingValue" v-bind="startingValue"><br>
     <label for="yearsToRetirement">Years until you retire:</label><br>
-    <input type="text" id="yearsToRetirement" name="yearsToRetirement" v-model="yearsToRetirement"><br>
+    <input type="text" id="yearsToRetirement" name="yearsToRetirement" v-bind="yearsToRetirement"><br>
     <label for="monthlyContribution">Monthly Contribution:</label><br>
-    <input type="text" id="monthlyContribution" name="monthlyContribution" v-model="monthlyContribution"><br>
+    <input type="text" id="monthlyContribution" name="monthlyContribution" v-bind="monthlyContribution"><br>
     <label for="annualInterestRate">Expected annual interest rate:</label><br>
-    <input type="text" id="annualInterestRate" name="annualInterestRate" v-model="annualInterestRate"><br>
+    <input type="text" id="annualInterestRate" name="annualInterestRate" v-bind="annualInterestRate"><br>
     <label for="desiredPortfolio">Desired portfolio value at retirement:</label><br>
-    <input type="text" id="desiredPortfolio" name="desiredPortfolio" v-model="desiredPortfolio"><br>
+    <input type="text" id="desiredPortfolio" name="desiredPortfolio" v-bind="desiredPortfolio"><br>
     <label for="submit">Calculate your retirement portfolio</label><br>
     <input type="submit" value="Submit" class="submitButton"><br>
   
