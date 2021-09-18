@@ -13,7 +13,8 @@
 <h1>Retirement Calculator</h1>
   
   <div id="app">
-  <form>
+  <div class="column">
+    <form>
     
  
     <label for="startingValue">Current value of your retirement portfolio: </label><br>
@@ -31,7 +32,10 @@
   
     
   </form>
+    </div>
     
+    <div class="column">
+      
     <div id="output">
       <div>Starting value: <script>{{ startingValue }}</script></div>
     <div>Years to retirement: <script>{{ yearsToRetirement }}</script></div>
@@ -39,6 +43,8 @@
     <div>Annual interest rate: <script>{{ annualInterestRate }}</script></div>
     <div>Desired value at retirement: <script>{{ desiredPortfolio }}</script></div>
     </div>
+    </div>
+      
     
     </div>
   
