@@ -1,3 +1,9 @@
 const retirementCalculator = new Vue({
-el: '#retirementCalculator'
+el: '#retirementCalculator',
+  data: {
+    startingValue: '',
+    yearsToRetirement: '',
+    monthlyContribution: '',
+    annualInterestRate: '',
+    desiredPortfolio: '',
 });
