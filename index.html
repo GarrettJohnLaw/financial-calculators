@@ -8,7 +8,10 @@
   <title>Financial Calculators</title>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14" defer></script>
+</head>
+  
+<body>
+   <script src="https://unpkg.com/vue"></script>
   <script>const app = new Vue({
 el: '#app',
   data: { 
@@ -20,9 +23,6 @@ el: '#app',
 });
      </script>
   
-</head>
-  
-<body>
   <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#retirement">Retirement Calculator</a>
@@ -57,7 +57,7 @@ el: '#app',
     <div class="column">
       
     <div id="output">
-      <div>Starting value: {{ startingValue }} </div>
+      <div>Starting value: <script>{{ startingValue }}</script> </div>
     <div>Years to retirement: <script>{{ yearsToRetirement }}</script></div>
     <div>Monthly contribution: <script>{{ startingValue }}</script></div>
     <div>Annual interest rate: <script>{{ annualInterestRate }}</script></div>
