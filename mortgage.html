@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Financial Calculators</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="./js/app.vue" defer></script>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./retirement.html">Retirement Calculator</a>
+        <a class="active" href="./mortgage.html">Mortgage Calculator</a>
+        <a href="./creditCard.html">Credit Card Debt Calculator</a>
+    </div>
+
+    <h1>Retirement Calculator</h1>
+
+    <div id="app">
+        <div class="column">
+            <form>
+
+
+                <label for="startingValue">Current value of your retirement portfolio: </label><br>
+                <input type="text" id="startingValue" name="startingValue" v-model="startingValue"><br>
+                <label for="yearsToRetirement">Years until you retire:</label><br>
+                <input type="text" id="yearsToRetirement" name="yearsToRetirement" v-model="yearsToRetirement"><br>
+                <label for="monthlyContribution">Monthly contribution:</label><br>
+                <input type="text" id="monthlyContribution" name="monthlyContribution" v-model="monthlyContribution"><br>
+                <label for="annualInterestRate">Expected annual interest rate:</label><br>
+                <input type="text" id="annualInterestRate" name="annualInterestRate" v-model="annualInterestRate"><br>
+                <label for="desiredPortfolio">Desired portfolio value at retirement:</label><br>
+                <input type="text" id="desiredPortfolio" name="desiredPortfolio" v-model="desiredPortfolio"><br>
+                <label for="submit">Calculate your retirement portfolio</label><br>
+                <input type="submit" value="Submit" class="submitButton"><br>
+
+
+            </form>
+        </div>
+
+        <div class="column">
+
+            <div id="output">
+                <div>Starting value:
+                    <script>
+                        {
+                            {
+                                startingValue
+                            }
+                        }
+                    </script>
+                </div>
+                <div>Years to retirement:
+                    <script>
+                        {
+                            {
+                                yearsToRetirement
+                            }
+                        }
+                    </script>
+                </div>
+                <div>Monthly contribution:
+                    <script>
+                        {
+                            {
+                                startingValue
+                            }
+                        }
+                    </script>
+                </div>
+                <div>Annual interest rate:
+                    <script>
+                        {
+                            {
+                                annualInterestRate
+                            }
+                        }
+                    </script>
+                </div>
+                <div>Desired value at retirement:
+                    <script>
+                        {
+                            {
+                                desiredPortfolio
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
